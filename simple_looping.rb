@@ -1,11 +1,11 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
-def loop_iterator(Int)
+def loop_iterator(integer)
   counter = 1
   loop do
     puts "Welcome to Flatiron School's Web Development Course!"
     counter += 1
-    break if counter > Int
+    break if counter > integer
     end
   end
   # Code your solution here using the "loop" keyword to puts out the below phrase
