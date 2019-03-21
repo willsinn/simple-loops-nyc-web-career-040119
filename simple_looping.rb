@@ -4,8 +4,8 @@ def loop_iterator(Int)
   counter = 1
   loop do
     puts "Welcome to Flatiron School's Web Development Course!"
-    break if counter > Int
     counter += 1
+    break if counter > Int
     end
   end
   # Code your solution here using the "loop" keyword to puts out the below phrase
