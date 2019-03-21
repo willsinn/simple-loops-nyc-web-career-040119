@@ -7,8 +7,9 @@ def loop_iterator(integer)
     phrase = gets.chomp
     puts "#{phrase}"
     counter += 1
-  end
     break if counter > integer
+
+  end
     
   # Code your solution here using the "loop" keyword to puts out the below phrase
   # This and all the other methods take an argument of an integer 
