@@ -4,7 +4,7 @@ def loop_iterator(integer)
   counter = 1
   loop do
     phrase = "Welcome to Flatiron School's Web Development Course!"
-    phrase = gets.chomp
+    phrase = gets
     puts "phrase"
     counter += 1
   end
