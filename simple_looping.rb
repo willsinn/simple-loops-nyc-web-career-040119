@@ -6,7 +6,7 @@ def loop_iterator(integer)
     phrase = "Welcome to Flatiron School's Web Development Course!"
     phrase = gets.chomp
     puts "#{phrase}"
-    break if counter > integer
+    break if counter == integer
     counter += 1
   end
     
