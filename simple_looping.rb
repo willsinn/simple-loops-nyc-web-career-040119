@@ -4,8 +4,8 @@ def loop_iterator(integer)
   counter = 1
   loop do
     phrase = "Welcome to Flatiron School's Web Development Course!"
-    phrase = gets
-    puts "phrase"
+    phrase = gets.chomp
+    puts "#{phrase}"
     counter += 1
   end
     break if counter > integer
@@ -21,8 +21,9 @@ def loop_iterator(integer)
 end
 
 def times_iterator(integer)
+  interger.times do
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  
+    puts "#{phrase}"
 end
 
 def while_iterator(number_of_times)
