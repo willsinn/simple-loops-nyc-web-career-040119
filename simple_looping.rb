@@ -50,11 +50,11 @@ end
 def for_iterator(integer)
   counter = 1..integer
   for each in counter 
-  puts 
   # code your solution here using the "for" keyword
   # remember that `for` requires a range of numbers. How can we turn our number into a range?
-  
   phrase = "Welcome to Flatiron School's Web Development Course!"
+    puts "#{phrase}"
+
   end
 end
 
