@@ -8,7 +8,6 @@ def loop_iterator(integer)
     puts "#{phrase}"
     counter += 1
     break if counter > integer
-
   end
     
   # Code your solution here using the "loop" keyword to puts out the below phrase
