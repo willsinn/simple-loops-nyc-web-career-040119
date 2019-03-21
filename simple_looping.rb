@@ -4,7 +4,8 @@ def loop_iterator(integer)
   counter = 1
   loop do
     phrase = "Welcome to Flatiron School's Web Development Course!"
-    puts gets.chomp
+    phrase = gets.chomp
+    puts 
     counter += 1
   end
     break if counter > integer
