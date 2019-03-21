@@ -21,7 +21,7 @@ def loop_iterator(integer)
 end
 
 def times_iterator(integer)
-  interger.times do
+  integer.times do
   phrase = "Welcome to Flatiron School's Web Development Course!"
     puts "#{phrase}"
   end
